@@ -221,6 +221,25 @@ x4 = a / b;
 x5 = a ^ 2;
 x6 = mod(a,b);
 
+temperature = 40;
+
+result1 = temperature > 30;
+result2 = temperature == 40;
+result3 = temperature < 20;
+
+disp(result1)
+disp(result2)
+disp(result3)
+
+
+Output:
+1
+1
+0
+
+
+In MATLAB, 1 represents true and 0 represents false.
+
 
 4. Comparison operators
 These operators compare values and return logical results.
