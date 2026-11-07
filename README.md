@@ -145,3 +145,16 @@ Electrical Power = 1100.00 Watts
 
 
 This is your first MATLAB engineering calculation!
+
+MATLAB Zero to Hero ⭐
+Lesson 2 — Variables, Data Types & Operators
+Beginner Level
+ Practical Engineering
+
+
+Today, you'll learn how MATLAB stores information, handles different data types, and performs calculations.
+1. Understanding variables
+A variable is a named container that stores a value.
+voltage = 220;
+current = 5;
+power = voltage * current;
