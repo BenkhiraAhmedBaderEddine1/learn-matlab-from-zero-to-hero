@@ -158,3 +158,11 @@ A variable is a named container that stores a value.
 voltage = 220;
 current = 5;
 power = voltage * current;
+Here:
+- voltage stores 220.
+- current stores 5.
+- power stores 1100.
+Display the results:
+disp(voltage)
+disp(current)
+disp(power)
