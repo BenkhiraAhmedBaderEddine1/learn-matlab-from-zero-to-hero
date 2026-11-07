@@ -364,4 +364,27 @@ Important:
 - Spaces separate elements in a row vector.
 - Semicolons separate rows.
 
-  
+  2. Creating vectors automatically
+MATLAB provides several useful functions.
+A = 1:10;
+B = 1:2:10;
+C = linspace(0,100,6);
+
+
+Results:
+A = 1 2 3 4 5 6 7 8 9 10
+
+B = 1 3 5 7 9
+
+C = 0 20 40 60 80 100
+
+
+Understand the syntax:
+
+start:step:end
+
+linspace(start,end,number_of_elements)
+3. What is a matrix?
+A matrix is a rectangular arrangement of numbers in rows and columns.
+
+Example: a 3 × 3 matrix.
