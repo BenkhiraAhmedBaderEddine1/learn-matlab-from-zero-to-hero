@@ -197,3 +197,39 @@ whos
 
 
 whos displays information about your variables.
+
+3. Arithmetic operators
+Essential MATLAB operators
+Operator	Function	Example
++	Addition	5+2
+-	Subtraction	5-2
+*	Multiplication	5*2
+/	Division	10/2
+^	Exponentiation	2^3
+mod()	Remainder	mod(10,3)
+sqrt()	Square root	sqrt(25)
+
+
+Practice:
+a = 20;
+b = 6;
+
+x1 = a + b;
+x2 = a - b;
+x3 = a * b;
+x4 = a / b;
+x5 = a ^ 2;
+x6 = mod(a,b);
+
+
+4. Comparison operators
+These operators compare values and return logical results.
+Operator	Meaning
+==	Equal
+~=	Not equal
+>	Greater than
+<	Less than
+>=	Greater than or equal
+<=	Less than or equal
+
+Example:
