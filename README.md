@@ -253,3 +253,56 @@ Operator	Meaning
 
 
 Example:
+
+5. Logical operators
+A = true;
+B = false;
+
+AND_result = A & B;
+OR_result  = A | B;
+NOT_result = ~A;
+
+
+- & means AND.
+- | means OR.
+- ~ means NOT.
+These become extremely important in automation, control systems, and AI algorithms.
+6. Engineering application — Electrical calculations
+Let's calculate resistance, power, and energy.
+
+Using Ohm's law:
+\[
+R = \frac{V}{I}
+\]
+
+Power:
+\[
+P = V \times I
+\]
+
+Energy:
+\[
+E = P \times t
+\]
+
+MATLAB implementation:
+clc;
+clear;
+
+V = 220;       % Voltage
+I = 5;         % Current
+t = 3;         % Time in hours
+
+R = V / I;
+P = V * I;
+E = P * t;
+
+fprintf('Resistance: %.2f Ohms\n', R);
+fprintf('Power: %.2f Watts\n', P);
+fprintf('Energy: %.2f Wh\n', E);
+
+
+Expected output
+Resistance: 44.00 Ohms
+Power: 1100.00 Watts
+Energy: 3300.00 Wh
