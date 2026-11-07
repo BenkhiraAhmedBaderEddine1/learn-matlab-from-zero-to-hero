@@ -437,3 +437,136 @@ D = rand(3,3);   % Random values
 This is extremely important.
 
 Consider:
+
+
+A = [10 20 30;
+     40 50 60;
+     70 80 90];
+
+
+To access individual elements:
+A(1,1)  % 10
+A(2,3)  % 60
+A(3,2)  % 80
+
+
+Syntax:
+A(row,column)
+
+
+To access a complete row:
+A(2,:)
+
+
+To access a complete column:
+A(:,2)
+
+
+To access all elements:
+A(:)
+
+
+Remember: MATLAB indexing starts at 1, not 0.
+5. Matrix operations
+Suppose:
+A = [1 2; 3 4];
+B = [5 6; 7 8];
+
+
+Addition
+C = A + B;
+
+
+Result:
+6  8
+10 12
+
+
+Subtraction
+C = A - B;
+
+
+Matrix multiplication
+C = A * B;
+
+
+Element-by-element multiplication
+C = A .* B;
+
+
+Important difference:
+Operator	Meaning
+*	Matrix multiplication
+.*	Element-wise multiplication
+/	Matrix right division
+./	Element-wise division
+^	Matrix power
+.^	Element-wise power
+
+This distinction is essential for scientific computing.
+6. Matrix mathematics
+Let's explore three important operations.
+A = [1 2; 3 4];
+
+T = A';       % Transpose
+D = det(A);   % Determinant
+I = inv(A);   % Inverse
+
+
+Transpose:
+\[
+A^T =
+\begin{bmatrix}
+1 & 3\\
+2 & 4
+\end{bmatrix}
+\]
+
+Determinant:
+\[
+\det(A)=1(4)-2(3)=-2
+\]
+
+The inverse exists because the determinant is not zero.
+
+For solving linear systems, MATLAB's backslash operator is generally preferable to explicitly calculating an inverse:
+A = [2 1; 1 3];
+b = [5; 7];
+
+x = A\b;
+
+
+This solves:
+\[
+Ax=b
+\]
+
+7. Engineering application — Electrical circuits
+Imagine a simple circuit system described by two simultaneous equations:
+\[
+2I_1+I_2=5
+\]
+
+\[
+I_1+3I_2=7
+\]
+
+We can solve it using MATLAB:
+A = [2 1;
+     1 3];
+
+B = [5;
+     7];
+
+I = A\B;
+
+fprintf('I1 = %.4f A\n',I(1));
+fprintf('I2 = %.4f A\n',I(2));
+
+
+Expected result
+I1 = 1.6000 A
+I2 = 1.8000 A
+
+
+This is a practical application of linear algebra in electrical engineering
