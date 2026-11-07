@@ -145,6 +145,7 @@ Electrical Power = 1100.00 Watts
 
 This is your first MATLAB engineering calculation!
 
+----------------------------------------------------------------------------------------------------
 MATLAB Zero to Hero ⭐
 Lesson 2 — Variables, Data Types & Operators
 Beginner Level
