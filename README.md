@@ -166,3 +166,34 @@ Display the results:
 disp(voltage)
 disp(current)
 disp(power)
+
+Important: MATLAB is case-sensitive.
+Voltage = 220;
+voltage = 110;
+
+disp(Voltage)  % 220
+disp(voltage)  % 110
+
+
+These are two different variables!
+2. MATLAB data types
+There are several important data types.
+Type	Example	Description
+double	10.5	Decimal numbers
+int32	int32(10)	32-bit integer
+logical	true	True or false
+char	'Hello'	Character array
+string	"MATLAB"	Text string
+single	single(2.5)	Single precision
+
+Try this code:
+a = 25.5;
+b = int32(10);
+c = true;
+d = 'Ahmed';
+e = "Engineering";
+
+whos
+
+
+whos displays information about your variables.
