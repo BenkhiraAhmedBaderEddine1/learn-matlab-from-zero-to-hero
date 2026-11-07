@@ -46,7 +46,7 @@ The Learn MATLAB from ZERO to HERO course
 
 20	Professional portfolio projects
 
------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 What is MATLAB?
 
 MATLAB stands for MATrix LABoratory.
