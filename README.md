@@ -388,3 +388,52 @@ linspace(start,end,number_of_elements)
 A matrix is a rectangular arrangement of numbers in rows and columns.
 
 Example: a 3 × 3 matrix.
+
+
+A = [1 2 3;
+     4 5 6;
+     7 8 9];
+
+
+Matrix A
+1
+
+
+2
+
+
+3
+
+
+4
+
+
+5
+
+
+6
+
+
+7
+
+
+8
+
+
+9
+
+
+
+3 rows × 3 columns
+
+You can create other matrices:
+A = zeros(3,3);  % All zeros
+B = ones(3,3);   % All ones
+C = eye(3);      % Identity matrix
+D = rand(3,3);   % Random values
+
+
+4. Matrix indexing
+This is extremely important.
+
+Consider:
