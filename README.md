@@ -3,7 +3,6 @@ The Learn MATLAB from ZERO to HERO course
 1. Your complete MATLAB roadmap
 Level	Topics
 
-
 1	MATLAB installation and interface
 
 2	Variables, data types and operators
