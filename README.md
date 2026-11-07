@@ -311,3 +311,57 @@ Power: 1100.00 Watts
 Energy: 3300.00 Wh
 
 ----------------------------------------------------------------------------------------------------------------
+
+MATLAB Zero to Hero ⭐
+Lesson 3 — Vectors & Matrices
+Beginner → Intermediate
+ Core MATLAB Skill
+
+
+Today we're learning one of the most important concepts in MATLAB: Matrices and Vectors.
+
+MATLAB was originally designed around matrix mathematics. Almost everything in engineering, AI, robotics, and signal processing uses these concepts.
+1. What is a vector?
+A vector is a collection of numbers.
+
+There are two main types:
+
+A. Row vector
+A = [10 20 30 40 50];
+
+
+ROW VECTOR — 1 × 5
+10
+
+20
+
+30
+
+40
+
+50
+
+
+
+B. Column vector
+B = [10; 20; 30; 40; 50];
+
+
+COLUMN VECTOR — 5 × 1
+10
+
+20
+
+30
+
+40
+
+50
+
+
+
+Important:
+- Spaces separate elements in a row vector.
+- Semicolons separate rows.
+
+  
