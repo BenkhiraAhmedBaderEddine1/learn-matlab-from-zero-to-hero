@@ -65,3 +65,23 @@ clear
 close all
 
 disp('Hello World!')
+
+What does each command do?
+Command	Meaning
+clc	Clears Command Window
+clear	Removes variables
+close all	Closes open figures
+disp()	Displays information
+
+3. Variables
+A variable stores information.
+x = 10;
+y = 20;
+
+z = x + y;
+
+disp(z)
+
+
+Output:
+30
