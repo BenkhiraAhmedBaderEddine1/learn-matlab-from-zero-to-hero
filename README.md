@@ -24,3 +24,24 @@ Level	Topics
 18	Simulink
 19	Advanced engineering simulations
 20	Professional portfolio projects
+
+
+What is MATLAB?
+
+MATLAB stands for MATrix LABoratory.
+
+It is a programming and numerical computing environment used for:
+- Mathematical calculations.
+- Electrical circuit simulation.
+- Robotics and automation.
+- Artificial intelligence.
+- Signal and image processing.
+- Control systems.
+- Scientific research and engineering.
+Understanding your first MATLAB commands
+Open MATLAB and enter:
+clc
+clear
+close all
+
+disp('Hello World!')
