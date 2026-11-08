@@ -587,3 +587,81 @@ Consider this matrix:
 A = [10 20 30 40;
      50 60 70 80;
      90 100 110 120];
+
+     Its dimensions are 3 × 4.
+Visual representation
+10
+(1,1)
+
+20
+(1,2)
+
+30
+(1,3)
+
+40
+(1,4)
+
+50
+(2,1)
+
+60
+(2,2)
+
+70
+(2,3)
+
+80
+(2,4)
+
+90
+(3,1)
+
+100
+(3,2)
+
+110
+(3,3)
+
+120
+(3,4)
+
+
+
+Selected element A(2,3) = 70
+
+Access individual elements:
+A(1,1)   % 10
+A(2,3)   % 70
+A(3,4)   % 120
+
+
+Remember:
+A(row,column)
+
+
+2. Extracting rows and columns
+The colon operator : is extremely useful.
+A = [10 20 30 40;
+     50 60 70 80;
+     90 100 110 120];
+
+row = A(2,:);
+column = A(:,3);
+
+
+Results:
+row = 50 60 70 80
+
+column =
+30
+70
+110
+
+
+Other useful examples:
+A(1:2,1:3)  % First two rows, first three columns
+
+A(:,2:4)    % All rows, columns 2 to 4
+
+A(2:end,:)  % Rows 2 to the last row
