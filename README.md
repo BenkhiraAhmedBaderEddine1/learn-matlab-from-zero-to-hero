@@ -786,3 +786,19 @@ temperature = [20 25 30 35 40 45];
 
 
 Find temperatures greater than 30:
+
+
+hot = temperature(temperature > 30);
+
+
+Result:
+35 40 45
+
+
+You can also replace values conditionally:
+temperature(temperature > 35) = 35;
+
+
+Now all temperatures above 35 are replaced by 35.
+
+This technique is widely used in signal processing, data cleaning, and machine learning.
