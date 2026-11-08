@@ -729,3 +729,23 @@ A = [1 2];
 B = [3 4];
 
 C = [A; B];
+
+Result:
+1 2
+3 4
+
+
+The dimensions must be compatible.
+6. Useful array functions
+Function	Purpose
+sort(A)	Sort elements
+max(A)	Maximum
+min(A)	Minimum
+sum(A)	Sum
+mean(A)	Average
+median(A)	Median
+std(A)	Standard deviation
+unique(A)	Unique values
+find(A)	Find nonzero elements
+
+Example:
