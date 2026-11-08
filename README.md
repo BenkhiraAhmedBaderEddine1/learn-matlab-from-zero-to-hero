@@ -700,3 +700,32 @@ Result:
 
 
 Other useful functions:
+
+
+A = [1 2 3; 4 5 6];
+
+size(A)     % Dimensions
+length(A)   % Largest dimension
+numel(A)    % Number of elements
+ndims(A)    % Number of dimensions
+
+
+5. Combining arrays
+MATLAB allows you to join matrices.
+
+Horizontal concatenation:
+A = [1 2];
+B = [3 4];
+
+C = [A B];
+
+
+Result:
+1 2 3 4
+
+
+Vertical concatenation:
+A = [1 2];
+B = [3 4];
+
+C = [A; B];
