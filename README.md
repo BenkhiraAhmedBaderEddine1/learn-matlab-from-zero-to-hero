@@ -583,3 +583,7 @@ Beginner → Intermediate
 Welcome back! Today we're going deeper into MATLAB arrays. These concepts are essential for handling large datasets, AI, signal processing, and engineering simulations.
 1. Understanding array indexing
 Consider this matrix:
+
+A = [10 20 30 40;
+     50 60 70 80;
+     90 100 110 120];
