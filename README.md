@@ -761,3 +761,28 @@ disp(average)
 disp(maximum)
 disp(minimum)
 disp(total)
+
+7. Engineering application — Sensor data analysis
+Imagine an industrial temperature sensor records five measurements.
+temperature = [25 28 30 35 40];
+
+average_temp = mean(temperature);
+maximum_temp = max(temperature);
+minimum_temp = min(temperature);
+
+if maximum_temp > 35
+    disp('WARNING: High temperature!');
+else
+    disp('Temperature is normal.');
+end
+
+
+This is a simple example of how MATLAB can process industrial sensor data.
+8. Advanced concept — Logical indexing
+One of MATLAB's most powerful features!
+
+Suppose you have:
+temperature = [20 25 30 35 40 45];
+
+
+Find temperatures greater than 30:
