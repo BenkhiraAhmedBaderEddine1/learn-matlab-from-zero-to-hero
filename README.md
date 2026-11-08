@@ -749,3 +749,15 @@ unique(A)	Unique values
 find(A)	Find nonzero elements
 
 Example:
+
+A = [10 20 30 40 50];
+
+average = mean(A);
+maximum = max(A);
+minimum = min(A);
+total = sum(A);
+
+disp(average)
+disp(maximum)
+disp(minimum)
+disp(total)
