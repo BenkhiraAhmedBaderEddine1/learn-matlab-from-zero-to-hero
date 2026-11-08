@@ -665,3 +665,35 @@ A(1:2,1:3)  % First two rows, first three columns
 A(:,2:4)    % All rows, columns 2 to 4
 
 A(2:end,:)  % Rows 2 to the last row
+
+3. Modifying matrix elements
+You can change elements without recreating the matrix.
+A = [1 2 3;
+     4 5 6;
+     7 8 9];
+
+A(2,2) = 100;
+
+
+You can also replace an entire row:
+A(1,:) = [10 20 30];
+
+
+Or an entire column:
+A(:,3) = [300;600;900];
+
+
+4. Reshaping arrays
+The reshape() function changes the dimensions of an array without changing its elements or their column-wise order.
+A = 1:12;
+
+B = reshape(A,3,4);
+
+
+Result:
+1   4   7   10
+2   5   8   11
+3   6   9   12
+
+
+Other useful functions:
