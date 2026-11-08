@@ -572,3 +572,14 @@ I2 = 1.8000 A
 
 
 This is a practical application of linear algebra in electrical engineering
+
+
+MATLAB Zero to Hero ⭐
+Lesson 4 — Indexing, Arrays & Advanced Matrix Operations
+Beginner → Intermediate
+ Practical Programming
+
+
+Welcome back! Today we're going deeper into MATLAB arrays. These concepts are essential for handling large datasets, AI, signal processing, and engineering simulations.
+1. Understanding array indexing
+Consider this matrix:
