@@ -577,7 +577,7 @@ I2 = 1.8000 A
 This is a practical application of linear algebra in electrical engineering
 
 
-MATLAB Zero to Hero ⭐
+------------------------------------------------------------------------------------------------------------------
 Lesson 4 — Indexing, Arrays & Advanced Matrix Operations
 Beginner → Intermediate
  Practical Programming
